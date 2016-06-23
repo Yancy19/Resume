@@ -1,0 +1,26 @@
+.albums-pic img
+{
+	transition: all 1s; 
+	/*火狐的適配*/
+	-moz-transition: all 1s;
+	/*safari和谷歌*/
+	-webkit-transition: all 1s;
+}
+
+
+.albums-animation-5 .albums-pic:hover img:nth-child(1){
+    transform: translate(0,50%) rotate(-20deg);
+	}
+	
+.albums-animation-5 .albums-pic:hover img:nth-child(2){
+    transform: translate(50%,0) rotate(-20deg);
+	}
+.albums-animation-5 .albums-pic:hover img:nth-child(3){ 
+    transform: translate(0,-50%)  rotate(-20deg);
+	}	
+.albums-animation-5 .albums-pic:hover img:nth-child(4){
+    transform: translate(-50%,0)  rotate(-20deg);
+	}
+.albums-animation-5 .albums-pic:hover img:nth-child(5){
+    transform: scale(1.1) rotate(-20deg);
+	}
